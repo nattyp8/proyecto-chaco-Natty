@@ -6,11 +6,10 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
 
-    <body class="bg-[#ffffff] text-[#1a1a1a] antialiased">
-
-        <div class="flex h-screen overflow-hidden">
-                <div class="w-[50%] relative bg-cover bg-center"
-                    style="background-image: url('{{ $bgImage ?? 'public/images/antecedentes.svg' }}');">
+    <body class="kiosk-mode bg-[#ffffff] text-[#1a1a1a] antialiased">
+        <div class="flex h-full overflow-hidden">
+                <div class="w-[50%] relative bg-contain bg-center bg-no-repeat"
+                    style="background-image: url('{{ asset($bgImage) }}')">
                     @yield('map')
                 </div>
             <div class="w-[50%] bg-white flex flex-col justify-between border-l border-color: #e5e5e5;">
@@ -21,8 +20,7 @@
                     @include('layouts.partials.nav')
                 </div>
             </div>
-
         </div>
-
     </body>
 </html>
+
