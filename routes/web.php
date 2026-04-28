@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Middleware\EnsureTeamMembership;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Laravel\Fortify\Features;
 
@@ -19,6 +20,15 @@ Route::middleware(['auth'])->group(function () {
 });
 
 Route::get('/home', function () {
+    
+    $section =request('section' , 'antecedentes');
+
+    $images = [
+        'antecedentes'=> 'images/antecedentes.svg',
+        'fortines'=> 'images/fortines.svg',
+        'fronteras'=>'/images/fronteras.svg',
+    ];
+
     $data = [
         "title" => "BACKGROUND TO THE CHACO WAR AND RESOLUTION OF THE CONFLICT",
         "paragraphs" => [
@@ -31,9 +41,9 @@ Route::get('/home', function () {
         En abril de 2009, setenta y cuatro años después de la finalización del conflicto, los presidentes de Bolivia y Paraguay acordaron la demarcación definitiva -de los límites- entre ambos países mediante la firma de la Memoria Final de la demarcación del límite internacional entre ambos países."
          ]
     ];
-    $bgImage = 'images/antecedentes.svg';
+    $bgImage = $images[$section] ?? $images['antecedentes'];
 
-    return view('home', compact('data', 'bgImage'));
+    return view('home', compact('data', 'bgImage', 'section'));
 })->name('home');
 
     Route::get('/1932',function(){
