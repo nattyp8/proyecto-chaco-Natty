@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\GuerraController;
 use App\Http\Middleware\EnsureTeamMembership;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -46,29 +47,36 @@ Route::get('/home', function () {
     return view('home', compact('data', 'bgImage', 'section'));
 })->name('home');
 
-    Route::get('/1932',function(){
-        $data = [
-        "title" => "1932",
-        ];
-        $bgImage= 'images/mapa_1932.svg';
-        return view('guerra.1932', compact('bgImage', 'data'));
+Route::get ('/guerra/{year}', [GuerraController::class, 'year'])
+    ->where('year', '1932|1933|1934|1935')
+    ->name('guerra.year');
+
+
+
+
+    // Route::get('/1932',function(){
+    //     $data = [
+    //     "title" => "1932",
+    //     ];
+    //     $bgImage= 'images/mapa_1932.svg';
+    //     return view('guerra.1932', compact('bgImage', 'data'));
         
-    })->name('guerra.1932');
+    // })->name('guerra.1932');
 
-    Route::get('/1933',function(){
-        $bgImage= 'images/mapa_1933.svg';
-        return view('guerra.1933', compact('bgImage'));
-    })->name('guerra.1933');
+    // Route::get('/1933',function(){
+    //     $bgImage= 'images/mapa_1933.svg';
+    //     return view('guerra.1933', compact('bgImage'));
+    // })->name('guerra.1933');
 
-    Route::get('/1934',function(){
-        $bgImage= 'images/mapa_1934.svg';
-        return view('guerra.1934', compact('bgImage'));
-    })->name('guerra.1934');
+    // Route::get('/1934',function(){
+    //     $bgImage= 'images/mapa_1934.svg';
+    //     return view('guerra.1934', compact('bgImage'));
+    // })->name('guerra.1934');
 
-    Route::get('/1935',function(){
-        $bgImage= 'images/mapa_1935.svg';
-        return view('guerra.1935', compact('bgImage'));
-    })->name('guerra.1935');
+    // Route::get('/1935',function(){
+    //     $bgImage= 'images/mapa_1935.svg';
+    //     return view('guerra.1935', compact('bgImage'));
+    // })->name('guerra.1935');
 
 
 

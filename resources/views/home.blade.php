@@ -47,7 +47,7 @@
                             </a>
                     </div>
                 </div>
-                <div class="w-[160px] h-[3px] bg-gray-400 mt-[16px]"></div>
+                <div class="w-[190px] h-[2px] bg-gray-400 mt-[10px]"></div>
             </div>
         </div>
 

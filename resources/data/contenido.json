@@ -1,0 +1,290 @@
+{
+  "es": {
+    "ui": {
+      "language": "IDIOMA",
+      "home": "INICIO",
+      "sections": {
+        "background": "ANTECEDENTES Y RESOLUCIÓN",
+        "advances": "FRONTERAS Y AVANCES",
+        "forts": "FORTINES VISITABLES"
+      }
+    },
+
+    "sections": {
+      "background": {
+        "title": "ANTECEDENTES DE LA GUERRA DEL CHACO Y RESOLUCIÓN DEL CONFLICTO",
+        "text": "Desde el siglo XIX, la definición de los límites fronterizos de Bolivia y Paraguay en la zona del Chaco Boreal había sido motivo de disputa. Ante esto, comisiones internacionales de carácter neutral plantearon distintas propuestas de reparto que nunca llegaron a concretarse. \n\n En ausencia de acuerdos, a principios del siglo XX Bolivia y Paraguay iniciaron la ocupación del territorio mediante la fundación de fortines militares. Paraguay fomentó además el asentamiento de colonias menonitas en la zona a partir de los años 20. \n\n Tras el fin de la Guerra, después de tres años de negociaciones, el 21 de julio de 1938 finalmente se logró que las dos partes llegaran a un acuerdo sobre los límites del Chaco mediante el Tratado de Paz, Amistad y Límites. Paraguay obtuvo el 80% del territorio en litigio, mientras que Bolivia logró asegurar su soberanía petrolera y un puerto en el río Paraguay (Puerto Busch), logrando así su salida al Océano Atlántico. \n\n En abril de 2009, setenta y cuatro años después de la finalización del conflicto, los presidentes de Bolivia y Paraguay acordaron la demarcación definitiva -de los límites- entre ambos países mediante la firma de la Memoria Final de la demarcación del límite internacional entre ambos países."
+      },
+      "advances": {
+        "title": "FRONTERAS Y AVANCES",
+        "text": ""
+      },
+      "forts": {
+        "title": "FORTINES VISITABLES",
+        "text": ""
+      }
+    },
+
+    "years": {
+      "1932": {
+        "title": "1932",
+        "intro": "En junio de 1932 una fuerza militar boliviana rodeó las orillas de la Laguna Pitiantuta y ocupó el Fortín paraguayo Carlos A. López con el fin de controlar los recursos acuíferos. Esta acción supondría el fin de las negociaciones diplomáticas. La recuperación del fortín por parte de las tropas paraguayas supondría el inicio de la Guerra del Chaco. \n\n Durante los meses de julio a diciembre ambos ejércitos intentaron tomar posiciones contrarias en la zona central del actual Chaco Paraguayo. Este sería el máximo avance de las fuerzas bolivianas en territorio paraguayo. En estos meses destaca la Batalla de Boquerón por la estrategia paraguaya de asedio e interrupción de las comunicaciones y del suministro de armas y alimentos como medio para doblegar al enemigo. Esta derrota supondría un duro golpe para las fuerzas bolivianas, así como la destitución del General Osorio, que sería sustituido por el General alemán Kundt.",
+        "events": [
+          {
+            "id": "abr",
+            "label": "Abril",
+            "date": "25 de Abril de 1932 - Pitiantuta",
+            "text": "Un avión boliviano descubrió la Laguna Pitiantuta."
+          },
+          {
+            "id": "jun",
+            "label": "Junio",
+            "date": "15 de Junio de 1932",
+            "text": "Una fuerza militar boliviana, rodeó sus orillas y ocupó el Fortín Carlos A. López, que era propiedad del Ejército Paraguayo. Fin de las negociaciones diplomáticas."
+          },
+          {
+            "id": "jul1",
+            "label": "16 Julio",
+            "date": "16 de Julio de 1932",
+            "text": "Una columna paraguaya recuperó el Fortín Carlos López sin apenas encontrar resistencia. Esta acción fue considerada como un “casus belli” en Bolivia."
+          },
+          {
+            "id": "jul2",
+            "label": "27 Julio",
+            "date": "27 de julio - 7 de agosto",
+            "text": "El Ejército Boliviano llevó la iniciativa cuando 6.000 de sus tropas cruzaron la frontera del Chaco Boreal y ocuparon el 27 de Julio el Fortín Corrales, el 28 el Fortín Toledo y el 31 el Fortín Boquerón."
+          },
+          {
+            "id": "sep",
+            "label": "Septiembre",
+            "date": "9 al 29 de septiembre",
+            "text": "Las fuerzas paraguayas rodearon y asediaron durante días el Fortín Boquerón, que había sido tomado por una guarnición boliviana. Sin la posibilidad de recibir alimentos, agua o municiones, los soldados, exhaustos, no pudieron continuar luchando y el 29 de Septiembre de 1932 la fuerza boliviana se rindió."
+          },
+          {
+            "id": "oct",
+            "label": "Octubre",
+            "date": "Octubre",
+            "text": "Tras la toma de Boquerón, el Coronel Paraguayo José Félix Estigarribia ordenó el ataque del fortín boliviano Arce, que las tropas bolivianas abandonaron para instalarse en los fortines Alihuatá y Saavedra."
+          },
+          {
+            "id": "nov",
+            "label": "Noviembre",
+            "date": "30 de noviembre",
+            "text": "El ejército paraguayo lanzó una ofensiva para conquistar el Fortín Saavedra, las posiciones del Km 7, Agua Rica, Murquía, Cuatro Vientos y Tifunque para despejar el camino hasta otro fortín de gran importancia para los bolivianos, el Fortín Muñoz. Esta ofensiva paraguaya fracasó."
+          },
+          {
+            "id": "dic",
+            "label": "Diciembre",
+            "date": "Diciembre",
+            "text": "Llega al Chaco el General alemán Hans Kundt, quien ordenó en Villa Montes una ofensiva contra Isla Poí, centro neurálgico paraguayo, y retomar los fortines Corrales, Toledo y Fernández. Otro grupo al sur tomaría el puesto de Nanawa."
+          }
+        ]
+      },
+
+      "1933": {
+        "title": "1933",
+        "intro": "Durante 1933 la guerra sigue centrada en una porción del territorio relativamente pequeña, cercana a las riberas de los ríos Pilcomayo, Monte Lima y Verde. \n\n Si los primeros meses supusieron para las fuerzas paraguayas el afianzamiento de sus posiciones más occidentales, los últimos meses del año supusieron el inicio de un imparable avance hacia la zona ocupada por los fortines bolivianos.",
+        "events": [
+          {
+            "id": "enero",
+            "label": "Enero",
+            "date": "20 al 30 de enero de 1933. NANAWA, CORRALES, TOLEDO Y FERNÁNDEZ",
+            "text": "Varios cuerpos bolivianos desencadenaron sin éxito su ofensiva frontal contra los fortines Nanawa, Toledo y Fernández, aunque sí pudieron conquistar el Fortín Corrales."
+          },
+          {
+            "id": "marzo",
+            "label": "Marzo",
+            "date": "Marzo 1933 ALIHUATÁ",
+            "text": "El General Kundt ordenó la recuperación del Fortín Alihuatá (rebautizado por Paraguay como Fortín Zenteno). Algunos días después las tropas bolivianas lograron expulsar al Ejército Paraguayo hacia Gondra tras la victoria en la Batalla de Campo Jordán."
+          },
+          {
+            "id": "junio",
+            "label": "Junio y Julio",
+            "date": "Junio y julio 1933. NANAWA",
+            "text": "El ejército paraguayo reforzó su defensa mediante trincheras, alambradas y campos minados, rechazando la ofensiva boliviana. Esto fue aprovechado por el coronel Estigarribia para ganar tres posiciones bolivianas: Campo Grande, Centro y Pozo favorito."
+          },
+          {
+            "id": "octubre",
+            "label": "Octubre",
+            "date": "Octubre de 1933.Alihuatá",
+            "text": "stigarribia lanzó una operación de ataque en Alihuatá, que quedó en manos de Paraguay."
+          },
+          {
+            "id": "diciembre",
+            "label": "Diciembre",
+            "date": "Diciembre 1933_CAMPO VÍA",
+            "text": "Gracias al cerco sobre el sector de Campo Vía, Fortín Saavedra y el Fortín Muñoz cayeron en manos Paraguayas. Esta batalla supuso una de las mayores derrotas sufridas por Bolivia y supuso la destitución del General Kundt, quien fue sustituido por Enrique Peñaranda."
+          },
+          {
+            "id": "diciembre2",
+            "label": "19 de diciembre",
+            "date": "19 de diciembre a primeros días de enero. ARMISTICIO.",
+            "text": "Ante esta la delicada situación, la comunidad internacional convocó a una comisión de neutrales que planteó una tregua que Paraguay y Bolivia aceptaron."
+          }
+        ]
+      },
+
+      "1934": {
+        "title": "1934",
+        "intro": "Durante 1934 en la Guerra del Chaco...",
+          "events": [
+          {
+            "id": "",
+            "label": "",
+            "date": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "label": "",
+            "date": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "label": "",
+            "date": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "label": "",
+            "date": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "label": "",
+            "date": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "label": "",
+            "date": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "label": "",
+            "date": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "label": "",
+            "date": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "label": "",
+            "date": "",
+            "text": ""
+          }
+        ]
+      },
+
+      "1935": {
+        "title": "1935",
+        "intro": "En 1935 las tropas paraguayas...",
+        "events": [
+          {
+            "id": "",
+            "label": "",
+            "date": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "label": "",
+            "date": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "label": "",
+            "date": "",
+            "text": ""
+          },
+          {
+            "id": "",
+            "label": "",
+            "date": "",
+            "text": ""
+          }
+        ]
+      }
+    }
+  },
+
+  "en": {
+    "ui": {
+      "language": "LANGUAGE",
+      "home": "HOME",
+      "sections": {
+        "background": "BACKGROUND AND RESOLUTION",
+        "advances": "ADVANCES AND BORDERS",
+        "forts": "VISITABLE FORTS"
+      }
+    },
+
+    "sections": {
+      "background": {
+        "title": "BACKGROUND TO THE CHACO WAR AND RESOLUTION OF THE CONFLICT",
+        "text": "Since the 19th century, the definition of the border boundaries..."
+      },
+      "advances": {
+        "title": "ADVANCES AND BORDERS",
+        "text": ""
+      },
+      "forts": {
+        "title": "VISITABLE FORTS",
+        "text": ""
+      }
+    },
+
+    "years": {
+      "1932": {
+        "title": "1932",
+        "intro": "In June 1932, a Bolivian military force surrounded...",
+        "map": "map-1932.png",
+        "events": [
+          {
+            "id": "apr",
+            "label": "April",
+            "date": "April 25, 1932",
+            "text": "A Bolivian plane discovered Pitiantuta Lagoon."
+          },
+          {
+            "id": "jun",
+            "label": "June",
+            "date": "June 15, 1932",
+            "text": "Bolivian forces occupied Fort Carlos A. López."
+          }
+        ]
+      },
+
+      "1933": {
+        "title": "1933",
+        "intro": "In 1933, the war remained concentrated...",
+        "map": "map-1933.png",
+        "events": []
+      },
+
+      "1934": {
+        "title": "1934",
+        "intro": "In 1934, Paraguayan forces advanced...",
+        "map": "map-1934.png",
+        "events": []
+      },
+
+      "1935": {
+        "title": "1935",
+        "intro": "In 1935, Paraguayan troops advanced west...",
+        "map": "map-1935.png",
+        "events": []
+      }
+    }
+  }
+}

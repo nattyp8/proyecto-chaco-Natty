@@ -1,3 +1,5 @@
+
+import './timeline.js'
 // import L from 'leaflet';
 // import 'leaflet/dist/leaflet.css';
 
@@ -12,3 +14,8 @@
 //         .addTo(map);
 
 // });
+import Alpine from 'alpinejs'
+
+window.Alpine = Alpine
+
+Alpine.start()
