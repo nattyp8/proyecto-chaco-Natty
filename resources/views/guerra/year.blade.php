@@ -6,8 +6,15 @@
         class="h-full flex flex-col">
 
         <!-- TEXTO -->
-        <div class="overflow-y-auto pr-10 h-[55%]">
-                <h1 x-text="year.title" class="title"></h1>
+        <div class="overflow-y-auto pr-10 flex-1 pb-6">
+           <div class="flex items-center gap-2 mb-2">
+            <img 
+                src="{{ asset('images/antestitulo.svg') }}" 
+                class="h-[35px] w-auto"
+                alt=""
+            >
+            <h1 x-text="year.title" class="title">.</h1>
+        </div>
 
             <p class="paragraph" x-text="year.intro" x-show="!currentEvent"></p>
 
@@ -19,7 +26,7 @@
 
         <!-- TIMELINE -->
         <div
-            class="px-14 h-70 shrink-0 relative  cursor-pointer"
+            class="px-14 h-65 shrink-0 relative  cursor-pointer"
             @mousedown="startDrag"
             @mouseup="stopDrag"
             @mouseleave="stopDrag"

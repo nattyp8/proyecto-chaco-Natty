@@ -16,7 +16,6 @@
                 <div class="flex-1 overflow-y-auto px-14 pt-20">
                     @yield('content')
                 </div>
-                
                 <div class="px-14 pb-5 pt-5">
                     @include('layouts.partials.nav')
                 </div>

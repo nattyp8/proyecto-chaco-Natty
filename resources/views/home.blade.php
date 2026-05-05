@@ -25,14 +25,16 @@
                     <div class="flex items-center gap-[40px]">
 
                         <div class="flex items-center gap-[8px]">
-                            <span class="text-[18px]">/</span>
+                            <img src="{{ asset('images/lineas.png') }}" 
+                    class="h-[20px] w-auto opacity-50 group-hover:opacity-100 transition"alt="">
                             <a href="{{ route('home', ['section' => 'antecedentes']) }}"
                                 class="nav-text {{ $section === 'antecedentes' ? 'text-black' : 'text-gray-400' }}">
                                     ANTECEDENTES Y RESOLUCIÓN
                             </a>
                         </div>
                         <div class="flex items-center gap-[8px]">
-                            <span class="text-[18px]">/</span>
+                            <img src="{{ asset('images/lineas.png') }}" 
+                    class="h-[20px] w-auto opacity-50 group-hover:opacity-100 transition" alt="">
                             <a href="{{ route('home', ['section' => 'fronteras']) }}"
                                 class="nav-text {{ $section === 'fronteras' ? 'text-black' : 'text-gray-400' }}">
                                     FRONTERAS Y AVANCES
@@ -40,7 +42,8 @@
                         </div>
                     </div>
                     <div class="flex items-center gap-[8px] ">
-                        <span class="text-[18px]">/</span>
+                        <img src="{{ asset('images/lineas.png') }}" 
+                    class="h-[20px] w-auto opacity-50 group-hover:opacity-100 transition" alt="">
                          <a href="{{ route('home', ['section' => 'fortines']) }}"
                                 class="nav-text {{ $section === 'fortines' ? 'text-black' : 'text-gray-400' }}">
                                     FORTINES VISITABLES
