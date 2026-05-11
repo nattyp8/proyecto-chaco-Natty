@@ -12,7 +12,7 @@
                     style="background-image: url('{{ asset($bgImage) }}')">
                     @yield('map')
                 </div>
-            <div class="w-[50%] bg-white flex flex-col h-full">
+            <div class="w-[50%] bg-[#F3F3F5] flex flex-col h-full">
                 <div class="flex-1 overflow-y-auto px-12 pt-15">
                     @yield('content')
                 </div>

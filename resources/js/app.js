@@ -37,9 +37,60 @@ window.timeLineComponent = (yearData) => ({
     }
 })
 
+// Agrega un evento de clic al elemento con id "intro"
+document.addEventListener('DOMContentLoaded', () => {
 
+    const intro = document.getElementById('intro')
 
+    if (intro) {
 
+        intro.addEventListener('click', () => {
 
+            const url = intro.dataset.url // por si cambiamos la ruta en el futuro, no tenemos que tocar el JS
 
-// agregar las funciones para el welcome
+            window.location.href = url
+        })
+    }
+})
+
+// Función para volver a la página de inicio después de un período de inactividad
+const tiempoInactividad = 60000
+
+let temporizador
+
+function volverAlInicio() {
+
+    if (window.location.pathname !== '/') { // o la ruta que corresponda a tu página de inicio
+
+        window.location.href = '/' // o la ruta que corresponda a tu página de inicio
+
+    }
+
+}
+
+function reiniciarTemporizador() {
+
+    clearTimeout(temporizador)
+
+    temporizador = setTimeout(() => {
+
+        volverAlInicio()
+
+    }, tiempoInactividad)
+
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+
+    document.addEventListener('click', reiniciarTemporizador)
+
+    document.addEventListener('mousemove', reiniciarTemporizador)
+
+    document.addEventListener('touchstart', reiniciarTemporizador)
+
+    document.addEventListener('keydown', reiniciarTemporizador)
+
+    reiniciarTemporizador()
+
+})
+

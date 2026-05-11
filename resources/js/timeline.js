@@ -8,9 +8,9 @@ globalThis.timeLineComponent = (yearData) => ({
     },
 
     step: 0,
-    init() {
-        this.step = 100 / (this.year.events.length - 1)
-    },
+    // init() {
+    //     this.step = 100 / (this.year.events.length - 1)
+    // },
 
     selectEvent(event, index) {
         this.currentIndex = index
@@ -28,7 +28,11 @@ globalThis.timeLineComponent = (yearData) => ({
         if (!this.dragging) return
 
         const rect = el.getBoundingClientRect()
-        const x = e.clientX - rect.left
+
+        const clientX = e.clientX ?? e.touches?.[0]?.clientX
+        if (clientX === undefined) return
+
+        const x = clientX - rect.left
         const percent = Math.max(0, Math.min(1, x / rect.width))
 
         const index = Math.round(percent * (this.year.events.length - 1))
@@ -36,8 +40,8 @@ globalThis.timeLineComponent = (yearData) => ({
         this.currentIndex = index
     },
     init() {
-    if (!this.year || !this.year.events) return
+        if (!this.year || !this.year.events) return
 
-    this.step = 100 / (this.year.events.length - 1)
+            this.step = 100 / (this.year.events.length - 1)
     }
 })

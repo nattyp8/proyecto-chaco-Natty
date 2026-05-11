@@ -5,32 +5,36 @@
         x-data="timeLineComponent(@js($yearData))"
         class="h-full flex flex-col">
 
-        <!-- TEXTO -->
-        <div class="overflow-y-auto pr-10 flex-1 pb-6">
-           <div class="flex items-center gap-2 mb-2">
-            <img
-                src="{{ asset('images/antestitulo.svg') }}"
-                class="h-9 w-auto"
-                alt=""
-            >
-            <h1 x-text="year.title" class="title">.</h1>
+            <!-- HEADER FIJO -->
+        <div class="shrink-0 px-10 pt-6 bg-[#F3F3F5] z-10">
+            <div class="flex items-center gap-2 mb-2">
+                <img
+                    src="{{ asset('images/antestitulo.svg') }}"
+                    class="h-9 w-auto"
+                    alt=""
+                >
+                <h1 x-text="year.title" class="title"> . </h1>
+            </div>
         </div>
 
-            {{-- <p class="paragraph" x-text="year.intro" x-show="!currentEvent"></p> --}}
-
-            <div class="mb-6" x-show="currentEvent">
+        <!-- CONTENIDO SCROLL -->
+        <div class="flex-1 overflow-y-auto px-10 pb-6">
+            <div x-show="currentEvent">
                 <p class="timeline-date" x-text="currentEvent.date"></p>
-               <p class="paragraph-timeline mt-2 whitespace-pre-line" x-text="currentEvent.text"></p>
+                <p class="paragraph-timeline mt-2 whitespace-pre-line"
+                x-text="currentEvent.text"></p>
             </div>
         </div>
 
         <!-- TIMELINE -->
         <div
             class="px-14 h-60 shrink-0 relative  cursor-pointer"
-            @mousedown="startDrag"
-            @mouseup="stopDrag"
-            @mouseleave="stopDrag"
-            @mousemove="onDrag($event, $el)">
+
+            @pointerdown="startDrag"
+            @pointermove="onDrag($event,$el)"
+            @pointerup="stopDrag"
+            @pointercancel="stopDrag"
+             >
 
             <div class="absolute top-1/2 left-0 w-full h-0.75 bg-gray-300 -translate-y-1/2"></div>
 
@@ -65,16 +69,14 @@
                             <div class="w-0.5 h-5 bg-gray-300 mt-15"></div>
 
                             <span
-                                class="text-xs timelinetext whitespace-nowrap mt-1"
+                                class="text-xs timelinetext whitespace-nowrap mt-1 opacity-50 group-hover:opacity-100 transition"
                                 :class="currentIndex === index ? 'text-black' : 'text-gray-400'"
                                 x-text="event.label">
                             </span>
                         </div>
                     </template>
-
                 </div>
             </template>
         </div>
-
     </div>
 @endsection

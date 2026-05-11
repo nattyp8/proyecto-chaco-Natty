@@ -1,7 +1,8 @@
 @extends('layouts.app')
     @section('content')
-        <div class="flex flex-col h-full">
-            <div>
+        <div class="flex flex-col h-full ">
+
+            <div class="shrink-0 px-5 pt-6  z-10">
                 <div class="flex items-start gap-3 mb-3">
                     <img src="{{ asset('images/antestitulo.svg') }}"
                         class="h-7.5 w-auto opacity-50 mt-1"
@@ -10,22 +11,28 @@
                         {{ $data['title'] }}
                     </h1>
                 </div>
-                <div class="space-y-1.25 -max-w-105 whitespace-pre-line mb-5">
-                    @foreach ($data['paragraphs'] as $p)
-                        <p class="paragraph">
-                            {{ $p }}
-                        </p>
-                    @endforeach
-                </div>
             </div>
-            <div>
+                <div class="flex-1 overflow-y-auto px-3 ">
+                    <div class="space-y-1.25 -max-w-105 whitespace-pre-line mb-5">
+                        @foreach ($data['paragraphs'] as $p)
+                            <p class="paragraph">
+                                {{ $p }}
+                            </p>
+                        @endforeach
+                    </div>
+                </div>
+           
+
+
+            {{-- nav fijo  --}}
+            <div class="shrink-0 z-10">
                 <div class="flex justify-between items-start">
 
                     <div class="flex items-center gap-[10px]">
 
                         <div class="flex items-center gap-[8px]">
                             <img src="{{ asset('images/lineas.png') }}"
-                    class="h-[20px] w-auto opacity-50 group-hover:opacity-100 transition"alt="">
+                            class="h-[20px] w-auto opacity-50 group-hover:opacity-100 transition"alt="">
                             <a href="{{ route('home', ['section' => 'antecedentes']) }}"
                                 class="nav-home {{ $section === 'antecedentes' ? 'text-black' : 'text-gray-400' }}">
                                     ANTECEDENTES Y RESOLUCIÓN
@@ -33,7 +40,7 @@
                         </div>
                         <div class="flex items-center gap-[8px]">
                             <img src="{{ asset('images/lineas.png') }}"
-                    class="h-[20px] w-auto opacity-50 group-hover:opacity-100 transition" alt="">
+                            class="h-[20px] w-auto opacity-50 group-hover:opacity-100 transition" alt="">
                             <a href="{{ route('home', ['section' => 'fronteras']) }}"
                                 class="nav-home {{ $section === 'fronteras' ? 'text-black' : 'text-gray-400' }}">
                                     FRONTERAS Y AVANCES
@@ -42,8 +49,8 @@
                     </div>
                     <div class="flex items-center gap-[8px] ">
                         <img src="{{ asset('images/lineas.png') }}"
-                    class="h-[20px] w-auto opacity-50 group-hover:opacity-100 transition" alt="">
-                         <a href="{{ route('home', ['section' => 'fortines']) }}"
+                        class="h-[20px] w-auto opacity-50 group-hover:opacity-100 transition" alt="">
+                            <a href="{{ route('home', ['section' => 'fortines']) }}"
                                 class="nav-home {{ $section === 'fortines' ? 'text-black' : 'text-gray-400' }}">
                                     FORTINES VISITABLES
                             </a>
