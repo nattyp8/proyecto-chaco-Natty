@@ -11,15 +11,24 @@ class HomeController extends Controller
         $section = request('section', 'antecedentes');
         $lang= request('lang','es');
 
-        $json=file_get_contents(resource_path('data/contenido.json'));
+        $json=file_get_contents(resource_path('data/contenido2.json'));
         $data=json_decode($json, true);
 
-        $sectionData=$data[$lang]['home'][$section];
+        $homeData=$data[$lang]['home'];
+
+        $shared= $homeData['shared'];
+
+        $sectionData=$homeData['sections'][$section];
+
+        $nav= $homeData['nav'];
 
         return view ('home',[
-            'data'=>$sectionData,
-            'bgImage'=>$sectionData['image'],
-            'section'=>$section
+            'title' => $shared['title'],
+            'paragraphs' => $shared['paragraphs'],
+            'bgImage' => $sectionData['image'],
+            'nav' => $nav,
+            'section' => $section,
+            'lang' => $lang
         ]);
 
         // $images = [

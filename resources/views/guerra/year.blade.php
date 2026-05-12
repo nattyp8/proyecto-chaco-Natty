@@ -53,7 +53,7 @@
                     <template x-if="index % 2 === 0">
                         <div class="flex flex-col items-center mb-2">
                             <span
-                                class="text-xs timelinetext whitespace-nowrap mb-1"
+                                class="text-xs timelinetext whitespace-nowrap mb-1 "
                                 :class="currentIndex === index ? 'text-black' : 'text-gray-400'"
                                 x-text="event.label">
                             </span>
@@ -69,7 +69,7 @@
                             <div class="w-0.5 h-5 bg-gray-300 mt-15"></div>
 
                             <span
-                                class="text-xs timelinetext whitespace-nowrap mt-1 opacity-50 group-hover:opacity-100 transition"
+                                class="text-xs timelinetext whitespace-nowrap mt-1 "
                                 :class="currentIndex === index ? 'text-black' : 'text-gray-400'"
                                 x-text="event.label">
                             </span>

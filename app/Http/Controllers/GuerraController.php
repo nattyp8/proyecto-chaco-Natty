@@ -7,16 +7,20 @@ use Illuminate\Http\Request;
 class GuerraController extends Controller
 {
     public function year($year){
-        $json =file_get_contents(resource_path('data/contenido.json'));
+        $json =file_get_contents(resource_path('data/contenido2.json'));
         $data=json_decode($json,true);
 
-        $lang='es';
+        $lang= request('lang','es');
 
         $bgImage = "images/mapa_{$year}.svg";
+        
+        $nav =$data[$lang]['home']['nav'];
 
         return view('guerra.year',[
             'yearData' =>$data[$lang]['years'][$year],
-            'bgImage' => $bgImage
+            'bgImage' => $bgImage,
+            'lang' => $lang,
+            'nav'=>$nav
         ]);
     }
 }
