@@ -1,0 +1,210 @@
+{
+            "1932": {
+                        "title": "1932",
+                        "map":"images/mapa_1932_eng.svg",
+                        "events": [
+
+                            {
+                            "id": 0,        
+                            "text": "In June 1932, a Bolivian military force surrounded the banks of the Pitiantuta Lagoon in order to control its water resources and occupied Paraguay’s Fort Carlos A. López. This action put an end to diplomatic negotiations between the two countries. The recovery of Fort Carlos A. López by the Paraguayan troops marked the beginning of the Chaco War. \n\n From July and December, both armies tried to take opposite positions in the central area of the current Paraguayan Chaco. This would be the maximum advance of the Bolivian forces in Paraguayan territory. During these months, the Battle of Boquerón stands out due to the Paraguayan strategy of siege and interrupting communications and the supply of weapons and food as a means to subdue the enemy. This defeat would be a blow to the Bolivian forces, as well as the dismissal of General Osorio, who was replaced by the German general, Kundt."
+                            },
+
+                        {
+                            "id": "abr",
+                            "label": "April",
+                            "date": "April 25_PITIANTUTA",
+                            "text": "A Bolivian plane discovered Pitiantuta Lagoon."
+                        },
+                        {
+                            "id": "jun",
+                            "label": "Jun",
+                            "date": "June 15",
+                            "text": "A Bolivian military force surrounded its banks and occupied Fort Carlos A. López Fort that belonged to the Paraguayan Army. End of diplomatic negotiations."
+                        },
+                        {
+                            "id": "jul1",
+                            "label": "July 16",
+                            "date": "July 16 Fort Carlos A. López",
+                            "text": "A Paraguayan column recovered Fort Carlos López with hardly any resistance. This action was considered a 'casus belli' by Bolivia."
+                        },
+                        {
+                            "id": "jul2",
+                            "label": "July 27",
+                            "date": "July 27 August 07_1932 FORTS TOLEDO, CORRALES AND BOQUERÓN",
+                            "text": "The Bolivian Army led the initiative when 6,000 of its troops crossed the border of the Boreal Chaco and occupied Fort Corrales on July 27, Fort Toledo on July 28 and Fort Boquerón on July 31."
+                        },
+                        {
+                            "id": "sep",
+                            "label": "Septembre",
+                            "date": "September 09 - 29 The Battle of Boquerón",
+                            "text": "Paraguayan forces surrounded and besieged Fort Boquerón, which had been taken by a Bolivian garrison, for days. Without receiving food, water or ammunition, the soldiers, exhausted, could not continue fighting and on September 29, 1932 the Bolivian force surrendered."
+                        },
+                        {
+                            "id": "oct",
+                            "label": "October",
+                            "date": "October",
+                            "text": "After the capture of Boquerón, the Paraguayan colonel, José Félix Estigarribia, ordered the attack on the Bolivian Fort Arce, which the Bolivian troops abandoned to retreat to Forts Alihuatá and Saavedra."
+                        },
+                        {
+                            "id": "nov",
+                            "label": "November",
+                            "date": "November 30",
+                            "text": "The Paraguayan army launched an offensive to conquer Fort Saavedra, the positions of Km 7, Agua Rica, Murquía, Cuatro Vientos and Tifunque in order to clear the way to another highly important fort for the Bolivians, Fort Muñoz. This Paraguayan offensive failed."
+                        },
+                        {
+                            "id": "dic",
+                            "label": "December",
+                            "date": "December",
+                            "text": "German General Hans Kundt arrives in the Chaco, and in Villa Montes orders an offensive against Isla Poí, a Paraguayan nerve center, and the retaking of Forts Corrales, Toledo and Fernández. Another position to the south would take the position of Nanawa."
+                        }
+                        ]
+                    },
+
+            "1933": {
+                "title": "1933",
+                "map":"images/mapa_1933_eng.svg",
+                "events": [
+
+                    {
+                    "id": 0,        
+                    "text": "In 1933, the war remains centered on a relatively small portion of the territory, close to the banks of the Pilcomayo, Monte Lima and Verde rivers. If the first months meant for the Paraguayan forces the strengthening of their more western positions, the last months of the year marked the beginning of an unstoppable advance towards the area occupied by the Bolivian forts."
+                    },
+                {
+                    "id": "enero",
+                    "label": "January",
+                    "date": "January 20 - 30 NANAWA, CORRALES, TOLEDO AND FERNÁNDEZ",
+                    "text": "Several Bolivian corps unleashed their frontal offensive against Forts Nanawa, Toledo and Fernández without success, although they were able to take Fort Corrales."
+                },
+                {
+                    "id": "marzo",
+                    "label": "March",
+                    "date": "March_ ALIHUATÁ",
+                    "text": "General Kundt ordered the recovery of Fort Alihuatá (renamed Fort Zenteno by Paraguay). Some days later the Bolivian troops managed to drive the Paraguayan Army back towards Gondra after the victory in the Battle of Campo Jordán."
+                },
+                {
+                    "id": "junio",
+                    "label": "Jun & July",
+                    "date": "June and July_NANAWA",
+                    "text": "The Paraguayan army reinforced its defense through trenches, barbed wire and minefields, rejecting the Bolivian offensive. This was used by Colonel Estigarribia to take three Bolivian positions: Campo Grande, Centro and Pozo favorito. Campo Grande, Centro and Pozo favorito."
+                },
+                {
+                    "id": "octubre",
+                    "label": "October",
+                    "date": "October_Alihuatá",
+                    "text": "Estigarribia launched an attack operation in Alihuatá, which remained in Paraguayan hands."
+                },
+                {
+                    "id": "diciembre",
+                    "label": "December",
+                    "date": "December_CAMPO VÍA",
+                    "text": "Owing to the siege of the Campo Vía sector, Fort Saavedra and Fort Muñoz fell to Paraguayan forces. This battle was one of the biggest defeats suffered by Bolivia and meant the removal of General Kundt, who was replaced by Enrique Peñaranda."
+                },
+                {
+                    "id": "diciembre2",
+                    "label": "December 19",
+                    "date": "December 19 to early January. ARMISTICE.",
+                    "text": "Ante esta la delicada situación, la comunidad internacional convocó a una comisión de neutrales que planteó una tregua que Paraguay y Bolivia aceptaron."
+                }
+                ]
+            },
+
+            "1934": {
+                "title": "1934",
+                "map":"images/mapa_1934_eng.svg",  
+                "events": [
+                {
+                    "id": 0,        
+                    "text": "In 1934, in the Chaco War, there was a greater advance of troops. The drive forward by the Paraguayan forces drove the Bolivian forces, which would suffer major defeats and hundreds of casualties during this period, back hundreds of kilometers."
+                    },
+                {
+                    "id": "Enero",
+                    "label": "January",
+                    "date": "January_CAPTURING FORTS",
+                    "text": "After the end of the Armistice, the Paraguayan Army resumed its advance in the Boreal Chaco, evacuating Fort Platanillos, Fort Loa, Fort Esteros, Fort Jayucubás and Fort Saavedra, amongst others."
+                },
+                {
+                    "id": "Marzo",
+                    "label": "March",
+                    "date": "March CAÑADA TARIJA and GARRAPATAL",
+                    "text": "On March 20, Paraguayan troops surrounded Cañada Tarija, annihilating Bolivian units and causing hundreds of deaths and prisoners. A few days later, Garrapatal falls, leaving the road open to Picuiba and the northward advance of Paraguayan soldiers."
+                },
+                {
+                    "id": "Abril",
+                    "label": "April",
+                    "date": "April",
+                    "text": "Bolivian troops once again retreated, going back from Campo Jurado to Cañada Esperanza and then to Ballivián and Cañada Strongest."
+                },
+                {
+                    "id": "Mayo",
+                    "label": "Mayo",
+                    "date": "Mayo_BATALLA CAÑADA STRONGEST",
+                    "text": "Las tropas bolivianas realizan un nuevo repliegue, retrocediendo desde Campo Jurado hasta Cañada Esperanza y luego hacia Ballivián y Cañada Strongest."
+                },
+                {
+                    "id": "Julio",
+                    "label": "July",
+                    "date": "July 31 FORT CAMACHO.",
+                    "text": "General Estigarribia establishes his Command Barracks in Fort Camacho."
+                },
+                {
+                    "id": "Agosto",
+                    "label": "August",
+                    "date": "August_CARANDAYTY",
+                    "text": "The Paraguayan Army unleashed a large surprise offensive with thousands of men who occupied Fortín Picuiba on August 15 and then Fort 27 de Noviembre. They descended later to the west taking the communications hub of Huirapitindí. This maneuver allowed the Paraguayans to bring their troops to the main logistics center in Carandaitý, which was finally defended by Bolivian reinforcements which had arrived to protect the town converted into a fort."
+                },
+                {
+                    "id": "Septiembre",
+                    "label": "September",
+                    "date": "September",
+                    "text": "General Toro of the Bolivian army began a counteroffensive from Carandaitý in an attempt to take the 6th Paraguayan division, which was entrenched on the sides of the road from Carandaitý to Picuiba. He avoided the Bolivian siege and set up headquarters in Villazón. \n\n The Bolivian army tried in vain to recover Villazón and Fort 27 de Noviembre, in order to free up the road between Villa Montes and Roboré, a new strategic center in the northeast created in order to access the Paraguay River."
+                },
+                {
+                    "id": "Noviembre",
+                    "label": "November",
+                    "date": "November 10 - 17 BALLIVIÁN, EL CARMEN.",
+                    "text": "On November 10, a counteroffensive was launched, taking advantage of a weakness in the Bolivian defenses. There were countless casualties in a confrontation known as the Battle of El Carmen. This weakness was used by Paraguay to take the strategic Fort Ballivián, a symbol of the Bolivian presence in Pilcomayo."
+                },
+                {
+                    "id": "Diciembre",
+                    "label": "December",
+                    "date": "December PICUIBA",
+                    "text": "In early December, Paraguay initiated an attack against General Toro's troops in Picuiba, which ended with the withdrawal of Paraguayan forces. Those days in December were especially warm and the lack of water caused hundreds of deaths amongst Bolivian soldiers, who died of heat and thirst. Meanwhile, General Estigarribia’s troops took the strategic enclave of 27 de noviembre, Huryapinditi, Santa Fe and Amboro, on the Parapetí River. The Bolivian army withdraws to Boyouibe in a defensive move, while further south, the 9th Bolivian division loses its position at Ybobó. To the north, the Paraguayan army forced the Bolivian regiments to leave Capirenda, a point of great strategic importance, since its elevated position in the mountains allowed the Chaqueña plain to be seen."
+                }
+                ]
+            },
+
+            "1935": {
+                "title": "1935",
+                "map":"images/mapa_1935_eng.svg",
+                "events": [
+                {
+                    "id": 0,        
+                "text": "In 1935, the Paraguayan troops continued advancing towards the western area of the Chaco. By April, they had already passed the disputed area and were stuck in the Aguaragüe range, a mountainous territory outside their habitat. Faced with this situation of stagnation and the decline of both countries’ economies, the war ended on June 15. However, the conflict would not be resolved until a few years later."
+                    },
+                {
+                    "id": "Febrero",
+                    "label": "February",
+                    "date": "February_VILLAMONTES.",
+                    "text": "General Estigarribia begins the final offensive on Villa Montes. However, no significant progress was made. While the first and third corps of the Paraguayan army were in Villa Montes, the second went to the area producing oil, which Bolivian forces in the Aguaragüe mountain range managed to bring to a halt."
+                },
+                {
+                    "id": "Abril",
+                    "label": "April",
+                    "date": "April",
+                    "text": "Paraguayan troops reached territories that were outside the disputed area. Bolivia and Paraguay were economically depleted."
+                },
+                {
+                    "id": "junio1",
+                    "label": "June 05",
+                    "date": "June 05 BATTLE OF INGAVI",
+                    "text": "The last battle of the war occurred, while in Buenos Aires, neutral countries (Argentina, Brazil, Uruguay, Chile and Peru) began talks on the cessation of hostilities and the agreement that the Chaco issue would be addressed in a peace conference chaired by the Argentine president."
+                },
+                {
+                    "id": "junio2",
+                    "label": "June 14",
+                    "date": "June 14  END OF HOSTILITIES.",
+                    "text": "After several days of attacks without a clear objective, on June 14 at 12:00 the hostilities ended."
+                }
+                ]
+            }
+}

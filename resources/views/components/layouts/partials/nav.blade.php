@@ -1,66 +1,68 @@
-<div class="w-[95px] h-0.5 bg-gray-400 mb-2"></div>
+<div class="w-[95px] h-0.5 bg-gray-400 mb-2">
+</div>
 <div class="flex justify-between">
             <div class="space-y-[10px]">
-                <div class="flex items-center gap-[10px] group">
+                <div class="flex items-center gap-[10px] ">
                    <img
-                    src="{{ asset('images/lineas.png') }}" 
+                    src="{{ asset('images/lineas.png') }}"
                     class="h-[18px] w-auto opacity-50 group-hover:opacity-100 transition" alt="">
                      <a href="{{ route('guerra.year', [
                         'year' => 1932,
                         'lang' => $lang
-                    ]) }}" class="nav-text">1932
+                    ]) }}"
+                     class="nav-text {{ request()->routeIs('guerra.year') && request()->route('year') == '1932' ? 'font-bold text-black' : '' }}">1932
                     </a>
                 </div>
 
-                <div class="flex items-center gap-[10px]">
-                    <img src="{{ asset('images/lineas.png') }}" 
-                    class="h-[18px] w-auto opacity-50 group-hover:opacity-100 transition"
-                    alt="">
+                <div class="flex items-center gap-[10px] ">
+                    <img src="{{ asset('images/lineas.png') }}"
+                    class="h-[18px] w-auto opacity-50 group-hover:opacity-100 transition" alt="">
                      <a href="{{ route('guerra.year', [
                         'year' => 1933,
                         'lang' => $lang
-                    ]) }}" class="nav-text">1933
+                    ]) }}"
+                    class="nav-text">1933
                     </a>
                 </div>
             </div>
             <div class="space-y-[10px] text-center">
-                <div class="flex justify-end items-center gap-[10px]">
-                    <img src="{{ asset('images/lineas.png') }}" 
+                <div class="flex justify-end items-center gap-[10px] ">
+                    <img src="{{ asset('images/lineas.png') }}"
                     class="h-[18px] w-auto opacity-50 group-hover:opacity-100 transition" alt="">
                     <a href="{{ route('guerra.year', [
                         'year' => 1934,
                         'lang' => $lang
-                    ]) }}" class="nav-text">1934
+                    ]) }}"
+                    class="nav-text">1934
                     </a>
                 </div>
 
-                <div class="flex justify-end items-center gap-[10px]">
-                    <img src="{{ asset('images/lineas.png') }}" 
-                    class="h-[18px] w-auto opacity-50 group-hover:opacity-100 transition"
-                    alt="">
+                <div class="flex justify-end items-center gap-[10px] ">
+                    <img src="{{ asset('images/lineas.png') }}"
+                    class="h-[18px] w-auto opacity-50 group-hover:opacity-100 transition"alt="">
                     <a href="{{ route('guerra.year', [
                         'year' => 1935,
                         'lang' => $lang
-                    ]) }}" class="nav-text">1935
+                    ]) }}"
+                    class="nav-text">1935
                     </a>
                 </div>
             </div>
             <div class="space-y-[10px] text-left">
-                <div class="flex justify-end items-center gap-[10px]">
-                    <img src="{{ asset('images/antestitulo.svg') }}" 
-                    class="h-[25px] w-auto opacity-50 group-hover:opacity-100 transition"
-                    alt="">
+                <div class="flex justify-end items-center gap-[10px] ">
+                    <img src="{{ asset('images/antestitulo.svg') }}"
+                    class="h-[25px] w-auto opacity-50 group-hover:opacity-100 transition"alt="">
                     <a href="{{ route('home', [
                         'section' => 'antecedentes',
                         'lang' => $lang
-                    ]) }}">
+                    ]) }}"
+                    class="nav-text">
                         {{$nav['inicio']}}
                     </a>
                 </div>
-                <div class="flex justify-end items-center gap-[10px]">
-                    <img src="{{ asset('images/antestitulo.svg') }}" 
-                    class="h-[25px] w-auto opacity-50 group-hover:opacity-100 transition"
-                    alt="">
+                <div class="flex justify-end items-center gap-[10px] ">
+                    <img src="{{ asset('images/antestitulo.svg') }}"
+                    class="h-[25px] w-auto opacity-50 group-hover:opacity-100 transition"alt="">
                    <a href="{{ request()->fullUrlWithQuery([
                         'lang' => $lang === 'es' ? 'en' : 'es'
                     ]) }}"

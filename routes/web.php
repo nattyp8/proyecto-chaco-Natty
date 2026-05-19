@@ -17,9 +17,9 @@ Route::view('/', 'welcome', [
 //     });
 
 
-Route::middleware(['auth'])->group(function () {
-    Route::livewire('invitations/{invitation}/accept', 'pages::teams.accept-invitation')->name('invitations.accept');
-});
+// Route::middleware(['auth'])->group(function () {
+//     Route::livewire('invitations/{invitation}/accept', 'pages::teams.accept-invitation')->name('invitations.accept');
+// });
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 

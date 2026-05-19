@@ -1,26 +1,13 @@
 
 import './timeline.js'
-// import L from 'leaflet';
-// import 'leaflet/dist/leaflet.css';
 
-// document.addEventListener('DOMContentLoaded', () => {
-
-//     const map = L.map('map', {
-//         zoomControl: false,
-//         attributionControl: false
-//     }).setView([-21.5, -60], 6);
-
-//     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
-//         .addTo(map);
-
-// });
 import Alpine from 'alpinejs'
 
-window.Alpine = Alpine
+globalThis.Alpine = Alpine
 
 Alpine.start()
 
-window.timeLineComponent = (yearData) => ({
+globalThis.timeLineComponent = (yearData) => ({
     year: yearData,
     currentEvent: null,
     currentIndex: 0,
@@ -46,23 +33,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
         intro.addEventListener('click', () => {
 
-            const url = intro.dataset.url // por si cambiamos la ruta en el futuro, no tenemos que tocar el JS
+            const url = intro.dataset.url // por si se cambia la ruta en el futuro, p no tocar el JS
 
-            window.location.href = url
+            globalThis.location.href = url
         })
     }
 })
 
-// Función para volver a la página de inicio después de un período de inactividad
+// Función para volver a inicio después de inactividad
 const tiempoInactividad = 60000
 
 let temporizador
 
 function volverAlInicio() {
 
-    if (window.location.pathname !== '/') { // o la ruta que corresponda a tu página de inicio
+    if (globalThis.location.pathname !== '/') { // ruta página de inicio
 
-        window.location.href = '/' // o la ruta que corresponda a tu página de inicio
+        globalThis.location.href = '/' 
 
     }
 
@@ -79,7 +66,7 @@ function reiniciarTemporizador() {
     }, tiempoInactividad)
 
 }
-
+   
 document.addEventListener('DOMContentLoaded', () => {
 
     document.addEventListener('click', reiniciarTemporizador)

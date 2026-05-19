@@ -105,6 +105,12 @@ select:focus[data-flux-control] {
         font-size: 16px;
         font-weight:450;
         color: var(--color-zinc-500);
+        transition: all 0.2s ease;
+    }
+
+    .nav-text-active{
+        font-weight: 600;
+        color:black;
     }
 
     .nav-home {
@@ -116,7 +122,7 @@ select:focus[data-flux-control] {
     .timelinetext {         
         font-size: 10px;
         color: rgb(21, 21, 21);
-        font-weight: 300;
+        font-weight: 400;
     }
 
         /* =========================

@@ -1,11 +1,10 @@
 @extends('layouts.app')
-
 @section('content')
     <div id="app"
         x-data="timeLineComponent(@js($yearData))"
         class="h-full flex flex-col">
 
-            <!-- HEADER FIJO -->
+            <!-- titulos fijos -->
         <div class="shrink-0 px-10 pt-6 bg-[#F3F3F5] z-10">
             <div class="flex items-center gap-2 mb-2">
                 <img
@@ -17,7 +16,7 @@
             </div>
         </div>
 
-        <!-- CONTENIDO SCROLL -->
+        <!-- parrafos -->
         <div class="flex-1 overflow-y-auto px-10 pb-6">
             <div x-show="currentEvent">
                 <p class="timeline-date" x-text="currentEvent.date"></p>
@@ -26,7 +25,7 @@
             </div>
         </div>
 
-        <!-- TIMELINE -->
+        <!-- timeline -->
         <div
             class="px-14 h-60 shrink-0 relative  cursor-pointer"
 
@@ -49,9 +48,9 @@
                     :style="`left: ${index * step}%; top: 50%; transform: translate(-50%, -50%)`"
                     @click="selectEvent(event, index)">
 
-                    <!-- ARRIBA -->
+                    <!-- fechas arriba -->
                     <template x-if="index % 2 === 0">
-                        <div class="flex flex-col items-center mb-2">
+                        <div class="flex flex-col items-center">
                             <span
                                 class="text-xs timelinetext whitespace-nowrap mb-1 "
                                 :class="currentIndex === index ? 'text-black' : 'text-gray-400'"
@@ -63,9 +62,9 @@
                         </div>
                     </template>
 
-                    <!-- ABAJO -->
+                    <!-- fechas abajo -->
                     <template x-if="index % 2 !== 0">
-                        <div class="flex flex-col items-center mt-2">
+                        <div class="flex flex-col items-center">
                             <div class="w-0.5 h-5 bg-gray-300 mt-15"></div>
 
                             <span
@@ -75,8 +74,11 @@
                             </span>
                         </div>
                     </template>
+
                 </div>
+
             </template>
+            
         </div>
     </div>
 @endsection

@@ -7,17 +7,27 @@ use Illuminate\Http\Request;
 class GuerraController extends Controller
 {
     public function year($year){
-        $json =file_get_contents(resource_path('data/contenido2.json'));
-        $data=json_decode($json,true);
 
         $lang= request('lang','es');
 
-        $bgImage = $data[$lang]['years'][$year]['map'];
-        
-        $nav =$data[$lang]['home']['nav'];
+        $jsonYears =file_get_contents(
+            resource_path("data/$lang/years.json"));
+
+        $years=json_decode($jsonYears,true);
+
+
+        $jsonHome=file_get_contents(resource_path("data/$lang/home.json"));
+
+        $home = json_decode($jsonHome,true);
+
+        $yearData= $years[$year];
+
+        $bgImage=$yearData['map'];
+
+        $nav = $home['nav'];
 
         return view('guerra.year',[
-            'yearData' =>$data[$lang]['years'][$year],
+            'yearData' =>$yearData,
             'bgImage' => $bgImage,
             'lang' => $lang,
             'nav'=>$nav

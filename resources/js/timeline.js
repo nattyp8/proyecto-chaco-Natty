@@ -8,9 +8,6 @@ globalThis.timeLineComponent = (yearData) => ({
     },
 
     step: 0,
-    // init() {
-    //     this.step = 100 / (this.year.events.length - 1)
-    // },
 
     selectEvent(event, index) {
         this.currentIndex = index
